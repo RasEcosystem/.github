@@ -38,7 +38,7 @@
     <tr>
       <td>
         <strong>
-          <a href="https://github.com/RasEcosystem/ras-hub-public">RasHub</a>
+          <a href="https://github.com/RasEcosystem/ras-hub">RasHub</a>
         </strong>
       </td>
       <td>Central service</td>

@@ -20,15 +20,6 @@
     <tr>
       <td>
         <strong>
-          <a href="https://github.com/RasEcosystem/ras-studio">RasStudio</a>
-        </strong>
-      </td>
-      <td>Веб-клиент</td>
-      <td>Централизованное администрирование инфраструктуры RAS</td>
-    </tr>
-    <tr>
-      <td>
-        <strong>
           <a href="https://github.com/RasEcosystem/ras-studio-mono">RasStudio Mono</a>
         </strong>
       </td>

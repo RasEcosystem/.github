@@ -53,6 +53,15 @@
       <td>API-контракты</td>
       <td>Версионируемые модели API для клиентов и сервисов</td>
     </tr>
+    <tr>
+      <td>
+        <strong>
+          <a href="https://github.com/RasEcosystem/ras-mcp">RasMcp</a>
+        </strong>
+      </td>
+      <td>MCP-сервер</td>
+      <td>Доступ AI-клиентов и агентов к возможностям Ras Ecosystem</td>
+    </tr>
   </tbody>
 </table>
 

@@ -53,6 +53,15 @@
       <td>API contracts</td>
       <td>Versioned API models shared by clients and services</td>
     </tr>
+    <tr>
+      <td>
+        <strong>
+          <a href="https://github.com/RasEcosystem/ras-mcp">RasMcp</a>
+        </strong>
+      </td>
+      <td>MCP server</td>
+      <td>Ras Ecosystem capabilities for AI clients and agents</td>
+    </tr>
   </tbody>
 </table>
 

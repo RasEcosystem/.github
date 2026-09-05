@@ -46,9 +46,3 @@
     </tr>
   </tbody>
 </table>
-
-<p align="center">
-  <sub>
-    Explore the repositories for documentation, setup instructions, and project updates.
-  </sub>
-</p>

@@ -32,7 +32,7 @@
           <a href="https://github.com/RasEcosystem/ras-hub">RasHub</a>
         </strong>
       </td>
-      <td>Центральный сервис</td>
+      <td>Бэкенд-сервис</td>
       <td>Управление инфраструктурой и единое API</td>
     </tr>
     <tr>
@@ -41,8 +41,21 @@
           <a href="https://github.com/RasEcosystem/ras-gate">RasGate</a>
         </strong>
       </td>
-      <td>Шлюз</td>
+      <td>HTTP-шлюз</td>
       <td>Контролируемое выполнение команд RAC через HTTP</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>RasEventGate*</strong>
+      </td>
+      <td>Событийная шина</td>
+      <td>Событийная шина и шлюз для 1С:Предприятия</td>
     </tr>
   </tbody>
 </table>
+
+<p align="center">
+  <sub>
+    Исходный код проектов, отмеченных *, не распространяется под открытой лицензией.
+  </sub>
+</p>

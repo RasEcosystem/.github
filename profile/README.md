@@ -32,7 +32,7 @@
           <a href="https://github.com/RasEcosystem/ras-hub">RasHub</a>
         </strong>
       </td>
-      <td>Central service</td>
+      <td>Backend service</td>
       <td>Infrastructure management and unified API</td>
     </tr>
     <tr>
@@ -41,8 +41,21 @@
           <a href="https://github.com/RasEcosystem/ras-gate">RasGate</a>
         </strong>
       </td>
-      <td>Gateway</td>
+      <td>HTTP gateway</td>
       <td>Controlled RAC command execution over HTTP</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>RasEventGate*</strong>
+      </td>
+      <td>Event bus</td>
+      <td>Event bus and gateway for 1C:Enterprise</td>
     </tr>
   </tbody>
 </table>
+
+<p align="center">
+  <sub>
+    Source code for projects marked with * is not released under an open-source license.
+  </sub>
+</p>

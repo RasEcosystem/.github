@@ -1,61 +1,86 @@
 <div align="center">
   <h1>Ras Ecosystem</h1>
 
+  <img src="https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&amp;logoColor=white" alt=".NET 10">
+  <img src="https://img.shields.io/badge/1C%3AEnterprise-RAS-F4C430" alt="1C:Enterprise RAS">
+
   <p>
-    Tools and services for managing 1C:Enterprise RAS infrastructure.
+    Tools and services for managing the RAS infrastructure of the 1C:Enterprise platform.
     <br>
     <strong>English</strong> · <a href="./README.ru.md">Русский</a>
   </p>
 </div>
 
 <table align="center" width="95%">
-  <thead>
-    <tr>
-      <th align="left" width="24%">Project</th>
-      <th align="left" width="25%">Component</th>
-      <th align="left">Purpose</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td>
+      <td align="center" valign="top" width="50%">
+        <a href="https://github.com/RasEcosystem/ras-studio-mono">
+          <img src="./assets/ras-studio-placeholder.png" width="400" height="225" alt="RasStudio Mono">
+        </a>
+        <br>
         <strong>
           <a href="https://github.com/RasEcosystem/ras-studio-mono">RasStudio Mono</a>
         </strong>
+        <br><br>
+        <img src="https://img.shields.io/badge/status-experimental-D29922" alt="Experimental status">
+        <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2563EB" alt="Windows and Linux">
+        <img src="https://img.shields.io/badge/license-MIT-2EA043" alt="MIT License">
+        <br><br>
+        <strong>Desktop client.</strong> Provides an interface for administering RAS infrastructure
       </td>
-      <td>Desktop client</td>
-      <td>Experimental single-user RAS administration</td>
-    </tr>
-    <tr>
-      <td>
+      <td align="center" valign="top" width="50%">
+        <a href="https://github.com/RasEcosystem/ras-hub">
+          <img src="./assets/ras-hub-placeholder.png" width="400" height="225" alt="RasHub">
+        </a>
+        <br>
         <strong>
           <a href="https://github.com/RasEcosystem/ras-hub">RasHub</a>
         </strong>
+        <br><br>
+        <img src="https://img.shields.io/badge/container-Linux%20AMD64-2496ED?logo=docker&amp;logoColor=white" alt="Linux AMD64 container">
+        <img src="https://img.shields.io/badge/license-MIT-2EA043" alt="MIT License">
+        <br><br>
+        <strong>Backend service.</strong> Provides an API and stores RAS infrastructure state
       </td>
-      <td>Backend service</td>
-      <td>Infrastructure management and unified API</td>
     </tr>
     <tr>
-      <td>
+      <td align="center" valign="top" width="50%">
+        <a href="https://github.com/RasEcosystem/ras-gate">
+          <img src="./assets/ras-gate-placeholder.png" width="400" height="225" alt="RasGate">
+        </a>
+        <br>
         <strong>
           <a href="https://github.com/RasEcosystem/ras-gate">RasGate</a>
         </strong>
+        <br><br>
+        <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2563EB" alt="Windows and Linux">
+        <img src="https://img.shields.io/badge/license-MIT-2EA043" alt="MIT License">
+        <br><br>
+        <strong>Management gateway.</strong> Connects ecosystem components to 1C:Enterprise servers
       </td>
-      <td>HTTP gateway</td>
-      <td>Controlled RAC command execution over HTTP</td>
+      <td align="center" valign="top" width="50%">
+        <img src="./assets/ras-event-gate-placeholder.png" width="400" height="225" alt="RasEventGate">
+        <br>
+        <strong>RasEventGate</strong>
+        <br><br>
+        <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2563EB" alt="Windows and Linux">
+        <img src="https://img.shields.io/badge/visibility-private-8B949E" alt="Private component">
+        <br><br>
+        <strong>Event gateway.</strong> Notifies components and external systems about server events
+      </td>
     </tr>
     <tr>
-      <td>
-        <strong>RasEventGate*</strong>
+      <td align="center" valign="top" colspan="2">
+        <img src="./assets/ras-warden-placeholder.png" width="400" height="225" alt="RasWarden">
+        <br>
+        <strong>RasWarden</strong>
+        <br><br>
+        <img src="https://img.shields.io/badge/container-Linux%20AMD64-2496ED?logo=docker&amp;logoColor=white" alt="Linux AMD64 container">
+        <img src="https://img.shields.io/badge/visibility-private-8B949E" alt="Private component">
+        <br><br>
+        <strong>Session controller.</strong> Detects and automatically remediates violations of information base usage policies
       </td>
-      <td>Event bus</td>
-      <td>Event bus and gateway for 1C:Enterprise</td>
     </tr>
   </tbody>
 </table>
-
-<p align="center">
-  <sub>
-    Source code for projects marked with * is not released under an open-source license.
-  </sub>
-</p>

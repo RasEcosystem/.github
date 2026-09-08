@@ -51,7 +51,12 @@
       <td align="center" valign="top" colspan="2">
         <strong>RasWarden</strong>
         <br><br>
-        <img src="./assets/ras-warden-placeholder.png" width="400" height="225" alt="RasWarden">
+        <a href="./assets/ras-warden-dashboard.png">
+          <img src="./assets/ras-warden-dashboard.png" width="300" alt="RasWarden monitoring dashboard">
+        </a>
+        <a href="./assets/ras-warden-constraints.png">
+          <img src="./assets/ras-warden-constraints.png" width="300" alt="RasWarden constraint configuration">
+        </a>
         <br><br>
         <img src="https://img.shields.io/badge/container-Linux%20AMD64-2496ED?logo=docker&amp;logoColor=white" alt="Linux AMD64 container">
         <img src="https://img.shields.io/badge/visibility-private-8B949E" alt="Private component">

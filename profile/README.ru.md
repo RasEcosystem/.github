@@ -51,7 +51,12 @@
       <td align="center" valign="top" colspan="2">
         <strong>RasWarden</strong>
         <br><br>
-        <img src="./assets/ras-warden-placeholder.png" width="400" height="225" alt="RasWarden">
+        <a href="./assets/ras-warden-dashboard.png">
+          <img src="./assets/ras-warden-dashboard.png" width="300" alt="Панель мониторинга RasWarden">
+        </a>
+        <a href="./assets/ras-warden-constraints.png">
+          <img src="./assets/ras-warden-constraints.png" width="300" alt="Настройка ограничений RasWarden">
+        </a>
         <br><br>
         <img src="https://img.shields.io/badge/container-Linux%20AMD64-2496ED?logo=docker&amp;logoColor=white" alt="Контейнер Linux AMD64">
         <img src="https://img.shields.io/badge/visibility-private-8B949E" alt="Приватный компонент">
